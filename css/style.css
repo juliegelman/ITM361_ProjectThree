@@ -1,0 +1,87 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-color: gainsboro;
+}
+h1 {
+    font-style: normal;
+    font-family: fantasy;
+    color: inherit;
+    text-align: center;
+    color: black;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+  font-size: 1.2em;
+  text-align: center;
+}
+h3 {
+  font-size: 1.6em;
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+section#info {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background: white;
+}
+section#experience, #education, #skills, #volunteer {
+    position: static;
+    border-style: double;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-top: 1em;
+    padding: .4em;
+    background-color: aliceblue;
+    text-align: left;
+    font-variant: small-caps;
+}
+table {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav#navigation ul li {
+    font-size: 1em;
+    display: inline-block;
+    padding: 12px;
+    background-color: gray;
+    border-radius: 4px;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+}
+li a.active {
+    background-color: #FFFFFF;
+}
+table, th, td {
+    border: 3px double black;
+    height: 40px;
+    text-align: center;
+}
+img {
+    height: 50%;
+    width: 50%;
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    transition: opacity .55s ease-in-out;
+    transition: opacity .55s ease-in-out;
+}
+img:hover {
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    transition: opacity .55s ease-in-out;
+    transition: opacity .55s ease-in-out;
+}
