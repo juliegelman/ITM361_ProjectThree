@@ -4,7 +4,7 @@ $(document).ready(function(){
      mode: 'fade',
      captions: true,
      slideWidth: 800,
-     slider: center;
+
    responsive: true
      });
    });
